@@ -3,18 +3,20 @@
 </h1>
 
 ## To run this hit:
+1. install modules 
+   
 
-1. install modules
-
-   npm install
+    npm install
 
 2. Build it
 
-   npm run build
 
-3. Serve it
+    npm run build
 
-   npm run serve
+3. Serve it 
+   
+    
+    npm run serve
 
 ## Explanation
 
