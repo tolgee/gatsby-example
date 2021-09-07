@@ -2,21 +2,25 @@
   Tolgee SSR Gatsby Example
 </h1>
 
-## To run this hit:
-1. install modules 
-   
+## To run
 
-    npm install
+1. install modules
+
+```   
+npm install
+```
 
 2. Build it
 
+```
+npm run build
+```
 
-    npm run build
+3. Serve it
 
-3. Serve it 
-   
-    
-    npm run serve
+```
+npm run serve
+```
 
 ## Explanation
 
