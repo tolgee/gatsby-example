@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {T} from '@tolgee/react';
 
-export const HelloWorld = () => {
+export const HomePageInner = () => {
     return (
         <>
             <h1><T>hello_world</T></h1>

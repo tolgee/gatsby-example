@@ -16,9 +16,12 @@
   },
   "dependencies": {
     "@tolgee/core": "^1.1.1",
-    "@tolgee/react": "^1.1.1",
     "gatsby": "^3.13.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@tolgee/react": "1.2.2",
+    "@tolgee/ui": "1.2.2"
   }
 }

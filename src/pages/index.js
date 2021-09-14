@@ -1,21 +1,26 @@
 import * as React from 'react';
 import {TolgeeProvider} from '@tolgee/react';
+import {UI} from '@tolgee/ui';
 import * as translationsEn from '../i18n/en.json';
-import {HelloWorld} from "../component/helloWorld";
+import {HomePageInner} from "../component/homePageInner";
 
 const IndexPage = () => {
     return (
         <main>
             <div>
+                {/*This is a link to Czech version of the website.*/}
                 <a href={'/cs'}>CS</a>
             </div>
             <TolgeeProvider
                 forceLanguage="en"
-                //apiKey={process.env.GATSBY_TOLGEE_API_KEY}
+                ui={UI}
+                apiKey={process.env.GATSBY_TOLGEE_API_KEY}
                 apiUrl={process.env.GATSBY_TOLGEE_API_URL}
-                staticData={{en: translationsEn}}
+                staticData={{
+                    en: translationsEn
+                }}
             >
-                <HelloWorld/>
+                <HomePageInner/>
             </TolgeeProvider>
         </main>
     );

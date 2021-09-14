@@ -2,7 +2,7 @@ import * as React from 'react';
 import {TolgeeProvider} from '@tolgee/react';
 import * as translationsEn from '../../i18n/en.json';
 import * as translationsCs from '../../i18n/cs.json';
-import {HelloWorld} from "../../component/helloWorld";
+import {HomePageInner} from "../../component/homePageInner";
 
 const IndexPage = () => {
     return (
@@ -19,7 +19,7 @@ const IndexPage = () => {
                     cs: translationsCs,
                 }}
             >
-                <HelloWorld />
+                <HomePageInner />
             </TolgeeProvider>
         </main>
     );
