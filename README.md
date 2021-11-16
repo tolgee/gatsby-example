@@ -1,31 +1,54 @@
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
 <h1 align="center">
-  Tolgee SSR Gatsby Example
+  Gatsby minimal starter
 </h1>
 
-## To run
+## 🚀 Quick start
 
-1. install modules
+1.  **Create a Gatsby site.**
 
-```   
-npm install
-```
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-2. Build it
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-```
-npm run build
-```
+2.  **Start developing.**
 
-3. Serve it
+    Navigate into your new site’s directory and start it up.
 
-```
-npm run serve
-```
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-## Explanation
+3.  **Open the code and start customizing!**
 
-If you inspect rendered page using browser developer tools or if you open one of the build HTML files, you can find out,
-that texts are rendered and are part of static content.
+    Your site is now running at http://localhost:8000!
 
-In development mode (if you add an API key in your .env file) texts will be loaded from Tolgee REST API, and so you
-would be able to modify the localization data in real time.
+    Edit `src/pages/index.js` to see your site update in real-time!
+
+4.  **Learn more**
+
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+## 🚀 Quick start (Gatsby Cloud)
+
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
